@@ -2,6 +2,8 @@
 
 import sys
 
-for i in sys.argv[1:]:
-    print(i)
+arguments = sys.argv[1:]
+
+for argument in arguments:
+    print(argument)
 
